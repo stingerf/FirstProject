@@ -1,0 +1,78 @@
+:root {
+    --primaryTextColor: #232e35; /* Untuk title atau judul */
+    --secondaryTextColor: #656d72; /* Untuk text biasa seperti paragraph contohnya */
+  
+    --borderColor: #f1f1f1;
+    --lineColor: #d9d9d9; /* untuk line di pre-title */
+  
+    --primaryBackgroundColor: #fff;
+    --secondaryBackgroundColor: #fbfbfb;
+    --thirdBackgroundColor: #f5f3fe;
+  
+    --primaryIconColor: #7e74f1;
+    --primaryIconColorHover: #5d51e8;
+  
+    --sectionPadding: 6rem 0;
+  
+    --itemBorderRadius: 0.7rem;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI';
+}
+
+.logo{
+    height: 360px;
+    width: 100px;
+}
+
+
+img{
+    position:absolute;
+    left: 43%;
+    right: 40%;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.nav{
+    text-align: center;
+    line-height: 1.9em;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+span.job1{
+    color: red;
+}
+
+span.job2{
+    color: green;
+}
+
+nav{
+   list-style: none;
+   justify-content: center;
+   padding: 1rem;   
+}
+
+nav li{
+    justify-content: center;
+    display: flex;
+}
+
+
+
